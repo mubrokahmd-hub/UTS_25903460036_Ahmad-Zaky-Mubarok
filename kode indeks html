@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Pemrograman Web - Dashboard Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Kampus -->
+    <header class="main-header">
+        <h1>BOASH UNIVERSITY</h1>
+        <p>Dashboard Akademik Mahasiswa</p>
+    </header>
+
+    <!-- Navigasi Utama (Tag Semantic <nav>) -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Profil</a></li>
+            <li><a href="#">Akademik</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Konten Utama Dashboard (Tag Semantic <main>) -->
+    <main class="dashboard-container">
+        
+        <!-- Kartu Profil Mahasiswa (Tag Semantic <section>) -->
+        <section class="profile-card">
+            <div class="avatar">👨‍🎓</div>
+            <h2>Profil Mahasiswa</h2>
+            <div class="profile-info">
+                <p><strong>Nama:</strong> Budi Santoso</p> <!-- Ubah Nama Lu -->
+                <p><strong>NIM:</strong> 230007</p>           <!-- Ubah NIM Lu -->
+                <p><strong>Program Studi:</strong> Teknik Informatika</p>
+                <p><strong>Semester:</strong> 3 (Tiga)</p>
+            </div>
+        </section>
+
+        <!-- Kartu Statistik Akademik (Tag Semantic <section>) -->
+        <section class="stats-container">
+            <h2>Statistik Akademik</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>IPK</h3>
+                    <p class="stat-value">3.85</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total SKS</h3>
+                    <p class="stat-value">72</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Semester</h3>
+                    <p class="stat-value">3</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Mata Kuliah</h3>
+                    <p class="stat-value">8</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer (Tag Semantic <footer>) -->
+    <footer class="main-footer">
+        <p>&copy; 2026 BOASH University - Ujian Pemrograman Web</p>
+    </footer>
+
+</body>
+</html>
